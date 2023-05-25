@@ -13,7 +13,6 @@ int main(){
     cout<< grid(18,18)<<endl;   //2333606220
     return 0;
 }
-
 long long grid(int m,int n){
     static unordered_map<string,long long> memo;
     if(memo.count(key(m,n))){
